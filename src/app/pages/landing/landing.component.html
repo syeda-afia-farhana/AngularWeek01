@@ -1,1 +1,40 @@
-<p>landing works!</p>
+<html>
+<style>
+  container {
+    display: flex;
+    background-color: DodgerBlue;
+    text-align: center;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: White;
+    text-align: center;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+</style>
+<body>
+<h1>Angular BootCamp Jan-2021</h1>
+<p>In this Angular Bootcamp 2021,we are going to learn how to make professional web application development.we will start from the begining level but wel will take our level at any enterprise level software development knowledge. </p>
+
+<div class="flex-container">
+  <app-htmlcss></app-htmlcss>
+  <app-javascript></app-javascript>
+  <app-angular></app-angular>
+</div>
+</body>
+</html>
