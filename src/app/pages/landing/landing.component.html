@@ -1,40 +1,31 @@
-<html>
-<style>
-  container {
-    display: flex;
-    background-color: DodgerBlue;
-    text-align: center;
-  }
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    background-color: White;
-    text-align: center;
-  }
-
-  .flex-container > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
-  h1{
-    text-align: center;
-  }
-  p{
-    text-align: center;
-  }
-</style>
-<body>
-<h1>Angular BootCamp Jan-2021</h1>
+<!--
+<h1 class="display-4">Angular BootCamp Jan-2021</h1>
 <p>In this Angular Bootcamp 2021,we are going to learn how to make professional web application development.we will start from the begining level but wel will take our level at any enterprise level software development knowledge. </p>
-
-<div class="flex-container">
-  <app-htmlcss></app-htmlcss>
-  <app-javascript></app-javascript>
+-->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col text-center pt-3 pb-2">
+        <h1 class="display-4">Angular Bootcamp Jan-2021</h1>
+        <div class="col-lg-12">
+          <p class="text-secondary mb-4">In this Angular Bootcamp 2021, we are going to learn how to make professional web application development. We will start from the beginning level, but we will take our level at any enterprise level software development development knowledge.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="mb-5">
+<div class="container">
+<div class="row">
+  <div class="col-sm mb-4">
+    <app-htmlcss></app-htmlcss>
+  </div>
+ <div class="col-sm mb-4">
+   <app-javascript></app-javascript>
+ </div>
+  <div class="col-sm mb-4">
   <app-angular></app-angular>
+  </div>
 </div>
-</body>
-</html>
+</div>
+</section>
