@@ -13,6 +13,7 @@ import { HtmlcssComponent } from './common/htmlcss/htmlcss.component';
 import { JavascriptComponent } from './common/javascript/javascript.component';
 import { AngularComponent } from './common/angular/angular.component';
 import { FooterComponent } from './common/footer/footer.component';
+import { StudentComponent } from './shared/component/student/student.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './common/footer/footer.component';
     HtmlcssComponent,
     JavascriptComponent,
     AngularComponent,
-    FooterComponent
+    FooterComponent,
+    StudentComponent
   ],
   imports: [
     BrowserModule,
