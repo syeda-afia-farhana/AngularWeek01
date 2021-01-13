@@ -14,6 +14,7 @@ import { JavascriptComponent } from './common/javascript/javascript.component';
 import { AngularComponent } from './common/angular/angular.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { StudentComponent } from './shared/component/student/student.component';
+import { TeacherComponent } from './shared/component/teacher/teacher.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { StudentComponent } from './shared/component/student/student.component';
     JavascriptComponent,
     AngularComponent,
     FooterComponent,
-    StudentComponent
+    StudentComponent,
+    TeacherComponent
   ],
   imports: [
     BrowserModule,

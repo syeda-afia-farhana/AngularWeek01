@@ -9,17 +9,34 @@
     </div>
   </div>
 <section class="mb-5">
+  <h1 class="display-8 text-secondary mb-4">All Students</h1>
 <div class="container">
 <div class="row">
   <div class="col-sm mb-4">
-    <app-student></app-student>
+    <app-student [data]="student1"></app-student>
   </div>
  <div class="col-sm mb-4">
-   <app-javascript></app-javascript>
+   <app-student [data]="student2"></app-student>
  </div>
   <div class="col-sm mb-4">
-  <app-angular></app-angular>
+    <app-student [data]="student3"></app-student>
   </div>
 </div>
 </div>
+</section>
+<section class="mb-5">
+  <h1 class="display-8 text-secondary mb-4">All Teachers</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm mb-4">
+        <app-teacher [info]="teacher1"></app-teacher>
+      </div>
+      <div class="col-sm mb-4">
+        <app-teacher [info]="teacher2"></app-teacher>
+      </div>
+      <div class="col-sm mb-4">
+        <app-teacher [info]="teacher3"></app-teacher>
+      </div>
+    </div>
+  </div>
 </section>
